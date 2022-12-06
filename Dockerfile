@@ -2,9 +2,6 @@ FROM alpine:latest
 
 RUN apk update && \
     apk add --no-cache \
-    build-base \
-    ffmpeg-dev \
-    libc-dev \
-    libpq \
+    ffmpeg \
     python3 \
-    python3-dev
+    bash
